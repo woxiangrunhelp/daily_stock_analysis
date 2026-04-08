@@ -403,7 +403,7 @@ def run_all_tests():
     print(f"提示: 使用 --notify 参数单独测试通知推送")
 
 
-def query_stock_data(stock_code: str, days: int = 10):
+def query_stock_data(stock_code: 001330, days: int = 10):
     """查询指定股票的数据"""
     print_header(f"查询股票数据: {stock_code}")
     
