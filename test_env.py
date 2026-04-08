@@ -36,6 +36,9 @@ import sys
 from datetime import datetime, date, timedelta
 from typing import Optional
 
+# 填入你在 DeepSeek 官方平台申请的 API Key
+DEEPSEEK_API_KEY=sk-435141dfb4c241a28351047d1fca1f10
+
 # 配置日志
 logging.basicConfig(
     level=logging.INFO,
